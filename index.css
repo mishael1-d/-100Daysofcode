@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+    90deg,
+    rgb(160, 222, 219),
+    rgb(3, 165, 209)
+  );
+}
+
+nav {
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+
+.logo {
+  margin: 0 50px;
+}
+
+.logo a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: cursive;
+  font-weight: 900;
+  color: rgb(58, 55, 55);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  padding: 10px;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.nav-link li {
+  margin-right: 30px;
+  padding: 10px;
+  list-style: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(58, 55, 55);
+}
+
+.nav-link li:hover {
+  color: mediumturquoise;
+  border-bottom: 3px solid black;
+}
+
+.nav-link li a {
+  text-decoration: none;
+  color: rgb(58, 55, 55);
+  font-weight: 700;
+}
+
+.port {
+  width: 70%;
+  height: 500px;
+  margin: 150px 150px -80px 150px;
+  display: flex;
+}
+
+.intro {
+  max-width: 50%;
+}
+
+.intro h3 {
+  text-transform: uppercase;
+  word-spacing: 3px;
+  color: rgb(58, 55, 55);
+  padding: 15px 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.intro h1 {
+  font-size: 45px;
+  text-transform: capitalize;
+  margin: 15px 0;
+}
+
+.intro p {
+  text-align: justify;
+}
+
+.intro .buttons {
+  margin: 25px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro .buttons p {
+  padding: 10px 25px;
+  border: 2px solid rgb(3, 165, 209);
+  color: black;
+  text-transform: uppercase;
+  font-weight: 900;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.intro .buttons p a {
+  text-decoration: none;
+  color: black;
+}
+
+.image img {
+  width: 200px;
+  background: rgb(3, 165, 209);
+  border-radius: 40px;
+  position: relative;
+  top: -360px;
+  left: 850px;
+}
+
+.port1 {
+  width: 100%;
+  display: flex;
+  background: white;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  width: 70%;
+  margin-left: 180px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.wrapper h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px auto;
+}
+
+.wrapper .lang {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+    border: 3px solid rgb(3, 165, 209);
+    margin-bottom: 50px;
+}
+
+.js img {
+    margin-top: 10px;
+    width: 225px;
+    height: 210px;
+    border-radius: 50%;
+} 
+
+.jsx img {
+  width: 220px;
+}
+
+.jsx p {
+  margin-top: -45px;
+  margin-bottom: 20px;
+}
+
+.lang p {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.port2 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.port2 h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 20px 0;
+}
+
+.port2 .text p {
+  margin: 30px 350px 50px 350px;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+p .button {
+  margin-top: 40px;
+}
+
+.text .button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 3px solid rgb(58, 55, 55);
+  background: rgb(58, 55, 55);
+  color: rgb(3, 165, 209);
+  padding: 15px;
+  margin: 20px 100px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.text .button a:hover {
+  text-decoration: underline;
+  transition: .5s;
+}
+
+
+.location {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 300px;
+}
+
+.locate {
+  border: 2px solid black;
+  padding: 30px 10px;
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
